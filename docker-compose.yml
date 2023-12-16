@@ -4,4 +4,4 @@ services:
       context: .
       dockerfile: dockerfile
     ports:
-      - ${HS_EUREKA_PORT:-8761}:8761
+      - ${HS_EUREKA_PORT:-8395}:8761
